@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="heb" dir="rtl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>President</title>
+
+	
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700;800&family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome-5-pro-master/css/all.css"/>
+	<link rel="stylesheet" href="css/font.css"/>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	
+</head>
+<body>
+
+  <header>
+		<div class="top-line">
+			<div class="content-width">
+				<div class="logo-wrap">
+					<div class="open-menu">
+						<a href="#">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<a href="index.html">
+						<img src="img/logo-mob.svg" alt="">
+						<img src="img/logo-mob.svg" alt="" class="mob-logo">
+					</a>
+				</div>
+				<nav class="top-menu">
+					<ul>
+						<li><a href="#">נשיא המדינה</a></li>
+						<li><a href="#">רעיית הנשיא</a></li>
+						<li><a href="#">מחליפים מילה</a></li>
+						<li><a href="#">אותות ופרסי הנשיא</a></li>
+						<li><a href="#">חנינות</a></li>
+						<li><a href="#">מרכז הביקורים</a></li>
+					</ul>
+					<div class="nav-wrap ">
+						<div class="nice-select" tabindex="0">
+							<div class="wrap">
+								<i class="far fa-globe"></i>
+								<span class="current">ENGLISH</span>
+							</div>
+							<ul class="list">
+								<li  class="option selected"><a href="#">עברית</a></li>
+								<li  class="option"><a href="#">ENGLISH</a></li>
+								<li  class="option"><a href="#">عربيه</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="search-wrap">
+						<a href="#" class="open-search"><img src="img/search.svg" alt=""></a>
+						<form action="#" class="form-search">
+							<label for="search"></label>
+							<input type="search" name="search" id="search" placeholder="חיפוש באתר…">
+							<a href="#" class="close-search"><img src="img/close-search.svg" alt=""></a>
+							<button type="submit"><img src="img/search.svg" alt=""></button>
+						</form>
+					</div>
+				</nav>
+			</div>
+		</div>
+  </header>
+
+	<div class="menu-responsive" id="menu-responsive" style="display: none">
+		<div class="top">
+			<div class="close-menu">
+				<a href="#"><img src="img/close-menu.svg" alt=""></a>
+			</div>
+		</div>
+		<div class="wrap-block">
+			<div class="bg">
+				<img src="img/bg-6.svg" alt="">
+			</div>
+			<div class="logo-wrap">
+				<a href="index.html">
+					<img src="img/logo-menu.svg" alt="">
+				</a>
+			</div>
+			<div class="search-wrap">
+				<form role="search" method="get" action="http://presidentdev.ofekpoint.com/en/" class="form-search">
+					<label for="s"></label>
+					<input type="text" name="s" id="s" placeholder="חיפוש באתר…">
+					<a href="#" class="close-search"><img src="http://presidentdev.ofekpoint.com/wp-content/themes/president_upro/img/close-search.svg" alt=""></a>
+					<button type="submit"><img src="http://presidentdev.ofekpoint.com/wp-content/themes/president_upro/img/search.svg" alt=""></button>
+				</form>      </div>
+			<div class="wrap-content">
+				<nav class="wrap-menu">
+					<div class="item">
+						<ul class="menu">
+							<li><a href="#">נשיא המדינה</a></li>
+							<li><a href="#">רעיית הנשיא</a></li>
+							<li class="sub">
+								<a href="#">מחליפים מילה</a>
+								<div class="wrap-sub">
+									<ul class="sub-menu">
+										<li><a href="#">המרחב</a></li>
+										<li><a href="#">נעים לדבר</a></li>
+										<li><a href="#">משחק קבוצתי</a></li>
+										<li><a href="#">קול העם</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">אותות ופרסי הנשיא</a></li>
+							<li><a href="#">חנינות</a></li>
+							<li><a href="#">מרכז הביקורים</a></li>
+							<li><a href="#">נאומי הנשיא</a></li>
+						</ul>
+					</div>
+					<div class="item">
+						<ul class="menu">
+							<li><a href="#">חדשות</a></li>
+							<li><a href="#">מכרזים ופרסומים</a></li>
+							<li><a href="#">מוסד הנשיאות בישראל</a></li>
+							<li><a href="#">תולדות בית הנשיא</a></li>
+							<li><a href="#">נשיאי ישראל</a></li>
+							<li><a href="#">הרשות הרביעית</a></li>
+							<li><a href="#">מחלקות בית הנשיא</a></li>
+						</ul>
+					</div>
+					<div class="item">
+						<ul class="menu">
+							<li><a href="#">רשתות חברתיות</a></li>
+							<li><a href="#">פניות הציבור</a></li>
+							<li><a href="#">יצירת קשר</a></li>
+						</ul>
+						<div class="nice-select" tabindex="0">
+							<div class="wrap">
+								<i class="far fa-globe"></i>
+								<span class="current">ENGLISH</span>
+							</div>
+							<ul class="list">
+								<li  class="option selected"><a href="#">עברית</a></li>
+								<li  class="option"><a href="#">ENGLISH</a></li>
+								<li  class="option"><a href="#">عربيه</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</nav>
+
+				<div class="wrap-contact">
+					<ul class="contact-list">
+						<li><p>רח’ הנשיא 3, ירושלים מיקוד 9218801</p></li>
+						<li><a href="#"><i class="far fa-phone"></i>+972 2 6707211</a></li>
+						<li><a href="#"><i class="fas fa-fax"></i>+972 2 6707211</a></li>
+						<li><a href="#"><i class="far fa-envelope"></i>public@president.gov.il</a></li>
+					</ul>
+					<ul class="soc">
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<main>
+
+
+		<section class="lady-head" >
+			<div class="content-width content-mini">
+				<h1>עו”ד מיכל הרצוג - הגברת הראשונה של מדינת ישראל</h1>
+				<h6>רעיית הנשיא ה-11 של מדינת ישראל, הגב’ מיכל הרצוג, היא עורכת דין ומגשרת במקצועה, הפועלת זה שנים לקידום סוגיות חברתיות, חינוכיות ובריאותיות.</h6>
+				
+				<figure>
+					<img src="img/img-20.png" alt="">
+					<div class="info">
+
+						<ul>
+							<li><a href="#"><i class="fas fa-link"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="far fa-print"></i></a></li>
+						</ul>
+						<p>שתף</p>
+					</div>
+					<figcaption>צילום: יגאל סלבין</figcaption>
+				</figure>
+
+				<div class="content">
+					<div class="item">
+						<div class="img-wrap">
+							<a href="#">
+								<img src="img/img-21-4.png" alt="">
+							</a>
+						</div>
+						<h6><a href="#">מיכל הרצוג רעיית נשיא המדינה</a></h6>
+					</div>
+					<div class="item">
+						<div class="img-wrap">
+							<a href="#">
+								<img src="img/img-21-4.png" alt="">
+							</a>
+						</div>
+						<h6><a href="#">חזון</a></h6>
+					</div>
+					<div class="item">
+						<div class="img-wrap">
+							<a href="#">
+								<img src="img/img-21-4.png" alt="">
+							</a>
+						</div>
+						<h6><a href="#">פרס רעיית הנשיא לשירה עברית</a></h6>
+					</div>
+					<div class="item">
+						<div class="img-wrap">
+							<a href="#">
+								<img src="img/img-21-4.png" alt="">
+							</a>
+						</div>
+						<h6><a href="#">פניות לרעיית הנשיא</a></h6>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="lady-content">
+			<div class="nav-content">
+				<ul id="nav">
+					<li class=""><a href="#section-1">מיכל הרצוג רעיית נשיא המדינה</a></li>
+					<li><a href="#section-2">עוגני העשייה</a></li>
+					<li><a href="#section-3">פרס רעיית הנשיא לשירה עברית</a></li>
+					<li><a href="#section-4">פניות לרעיית הנשיא</a></li>
+				</ul>
+			</div>
+
+			<div class="item-content item-content-1" id="section-1">
+				<div class="content-text content-mini content-width">
+					<p>רעיית הנשיא ה-11 של מדינת ישראל, הגב’ מיכל הרצוג, היא עורכת דין ומגשרת במקצועה, הפועלת זה שנים לקידום סוגיות חברתיות, חינוכיות ובריאותיות. הגב’ הרצוג, ילידת 1961, נשואה ליצחק הרצוג מאז 1985, היא אם לשלושה בנים, דוברת עברית, אנגלית, צרפתית ופורטוגזית. הגב’ הרצוג היא בוגרת הפקולטה למשפטים של אוניברסיטת תל אביב. היא חברה בלשכת עורכי הדין בישראל והייתה בעלת משרד עורכי דין שהתמחה במשפט פלילי, צווארון לבן ובמשפט מסחרי. במשך שנים רבות ניהלה הגב’ הרצוג קרנות פילנתרופיות הפועלות בתחומים חברתיים שונים כגון בריאות ומחקר מדעי, חינוך ורווחה בישראל. במסגרתכבסיס לעתיד משותף.</p>
+					<p> זו הייתה מעורבת בקידום פרויקטים להעצמת אוכלוסיות ולשילובן בשוק העבודה תוך יצירת מסלולים לעצמאות כלכלית. במהלך השנים שימשה הגב’ הרצוג כחברת הנהלה בארגונים ציבוריים שונים המקדמים אנשים עם מוגבלות, עוסקים בטיפול בנוער בסיכון וקידום ניידות חברתית. כמו כן, מונתה כחברה בוועדות ציבוריות העוסקות ביוזמות חברתיות ובפעילות התנדבותית יוצאת דופן בישראל. הגב’ הרצוג ייסדה את ארגון הבוגרים של הפקולטה למשפטים באוניברסיטת תל אביב, עמדה בראש הקואליציהיצירתו של שיח פתוח </p>
+					<div class="bg-black">
+						<div class="bg">
+							<img src="img/bg-7.png" alt="">
+						</div>
+						<div class="wrap">
+							<h3>“תפקידי - להיות כוח מאחד”</h3>
+							<p>רעיית הנשיא מיכל הרצוג</p>
+						</div>
+					</div>
+					<p>רעיית הנשיא ה-11 של מדינת ישראל, הגב’ מיכל הרצוג, היא עורכת דין ומגשרת במקצועה, הפועלת זה שנים לקידום סוגיות חברתיות, חינוכיות ובריאותיות. הגב’ הרצוג, ילידת 1961, נשואה ליצחק הרצוג מאז 1985, היא אם לשלושה בנים, דוברת עברית, אנגלית, צרפתית ופורטוגזית. הגב’ הרצוג היא בוגרת הפקולטה למשפטים של אוניברסיטת תל אביב. היא חברה בלשכת עורכי הדין בישראל והייתה בעלת משרד עורכי דין שהתמחה במשפט פלילי, צווארון לבן ובמשפט מסחרי. במשך שנים רבות ניהלה הגב’ הרצוג קרנות פילנתרופיות הפועלות בתחומים חברתיים שונים כגון בריאות ומחקר מדעי, חינוך ורווחה בישראל. במסגרתכבסיס לעתיד משותף.</p>
+					<p> זו הייתה מעורבת בקידום פרויקטים להעצמת אוכלוסיות ולשילובן בשוק העבודה תוך יצירת מסלולים לעצמאות כלכלית. במהלך השנים שימשה הגב’ הרצוג כחברת הנהלה בארגונים ציבוריים שונים המקדמים אנשים עם מוגבלות, עוסקים בטיפול בנוער בסיכון וקידום ניידות חברתית. כמו כן, מונתה כחברה בוועדות ציבוריות העוסקות ביוזמות חברתיות ובפעילות התנדבותית יוצאת דופן בישראל. הגב’ הרצוג ייסדה את ארגון הבוגרים של הפקולטה למשפטים באוניברסיטת תל אביב, עמדה בראש הקואליציהיצירתו של שיח פתוח </p>
+
+				</div>
+				<div class="bg-grey">
+					<div class="content-width blog-text content-mini ">
+						<h2>גלריית תמונות</h2>
+						<div class="flex">
+							<div class="blog-item">
+								<figure>
+									<a href="img/img-22-1.png" data-fancybox="gallery" >
+										<img src="img/img-22-1.png" alt="">
+									</a>
+								</figure>
+								<div class="text">
+									<h6><a href="#">ביקור בליגת השכונות - הפועל קטמון</a></h6>
+									<p>צילום: בני ארדוב</p>
+								</div>
+							</div>
+							<div class="blog-item">
+								<figure>
+									<a href="img/img-22-2.png" data-fancybox="gallery" >
+										<img src="img/img-22-2.png" alt="">
+									</a>
+								</figure>
+								<div class="text">
+									<h6><a href="#">ביקור בליגת השכונות - הפועל קטמון</a></h6>
+									<p>צילום: בני ארדוב</p>
+								</div>
+							</div>
+							<div class="blog-item">
+								<figure>
+									<a href="img/img-22-3.png" data-fancybox="gallery" >
+										<img src="img/img-22-3.png" alt="">
+									</a>
+								</figure>
+								<div class="text">
+									<h6><a href="#">ביקור בליגת השכונות - הפועל קטמון</a></h6>
+									<p>צילום: בני ארדוב</p>
+								</div>
+							</div>
+							<div class="blog-item">
+								<figure>
+									<a href="img/img-22-4.png" data-fancybox="gallery" >
+										<img src="img/img-22-4.png" alt="">
+									</a>
+								</figure>
+								<div class="text">
+									<h6><a href="#">ביקור בליגת השכונות - הפועל קטמון</a></h6>
+									<p>צילום: בני ארדוב</p>
+								</div>
+							</div>
+							<div class="blog-item">
+								<figure>
+									<a href="img/img-22-5.png" data-fancybox="gallery" >
+										<img src="img/img-22-5.png" alt="">
+									</a>
+								</figure>
+								<div class="text">
+									<h6><a href="#">ביקור בליגת השכונות - הפועל קטמון</a></h6>
+									<p>צילום: בני ארדוב</p>
+								</div>
+							</div>
+							<div class="blog-item">
+								<figure>
+									<a href="img/img-22-6.png" data-fancybox="gallery" >
+										<img src="img/img-22-6.png" alt="">
+									</a>
+								</figure>
+								<div class="text">
+									<h6><a href="#">ביקור בליגת השכונות - הפועל קטמון</a></h6>
+									<p>צילום: בני ארדוב</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="item-content item-content-2" id="section-2">
+				<div class="content-mini content-width">
+					<div class="text">
+						<h2 class="h2-after">עוגני העשייה</h2>
+						<h5>מאז החלה הגב’ הרצוג במילוי שליחותה כגברת הראשונה, היא פועלת מתוך תפיסתה כי עתידה של החברה הישראלית הוא עתיד משותף בו על בני ובנות כל הקבוצות בחברה הישראלית לפעול יחד למען קיומם של חיים טובים יותר לכל מי שחי בארצנו. מתוך אמונתה כי רק אם נדע להסיר חומות של ניכור בין אזרחיות ואזרחי ישראל, יוצאי כל שדרותיה של החברה, ולהושיט יד לאחר, נוכל להצעיד את החברה שלנו לעתיד של הצלחה ושגשוג – פועלת הגב’ הרצוג לקידומם של מספר נושאים מרכזיים.</h5>
+					</div>
+					<div class="line"></div>
+					<div class="text">
+						<h6>בריאות הנפש</h6>
+						<p>את עשייתה הפנים-ישראלית בסוגיית בריאות הנפש ממקדת הגברת הראשונה במאבק בסטיגמות המלוות מתמודדי נפש ובהעלאת המודעות לשכיחות האתגרים הכרוכים בכך. היא מדגישה את חשיבות ההכרה בקושי, לצד הסרת הבושה אשר לעתים קרובות מלווה את המתמודדים עם המחלה. מתוך אמונה בחשיבות הקהילה וביכולתה להעניק מעטפת תומכת בתחום בריאות הנפש, בפרט בצל מגפת הקורונה, מדגישה הגברת הראשונה את הצורך בהושטת יד ופתחון לב לרבים סביבנו ובתוכנו, אשר ראויים לכך. הגברת הראשונה סבורה כי למרות הקידמה שסייעה בהעמקת ההבנה כי מחלה נפשית היא מחלה לכל דבר וענין, עדיין חסרה מודעות לכך שמתמודדות ומתמודדי נפש, ניצבים מול תופעה אמיתית ומגבילה. מחלות הנפש עדיין נתפסות, בראיית הגברת הראשונה, כמשהו שמרתיע רבים ולכן שיח וחינוך בנושא בפתיחות חשובים כל כך. בדברים שנשאה בנושא אמרה הגב’ הרצוג, בין היתר כי “יש לשחרר את הנפש, להוציא אותה לאור, לאוורר אותה ולהכיר בקשייה. אחת ולתמיד חייבים להסיר את הסטיגמה סביב הנושא הזה – העיסוק בבריאות הנפש, וביתר שאת – ההצפה וההנכחה של העובדה שאין במחלות אלה שום גרגר של בושה, ושהן קיימות כמעט בכל משפחה, ובוודאי בכל אחד מחלקי החברה, וביתר שאת לאחר שנות הקורונה שחווינו, הוא דבר שהצבתי לנגד עיניי בשעה שנכנסתי לבית הזה כרעיית נשיא המדינה”. במסגרת עשייתה בנושא מחוץ לגבולות ישראל, הובילה הגברת הראשונה יחד עם הגברת הראשונה של אוקראינה – הגב’ אולנה זלנסקה - שיתוף פעולה נרחב להענקת סיוע הומניטרי מתמשך לפליטים ולנפגעים אוקראינים מהמלחמה. ביוזמתה ותחת ליוויה הצמוד, פותחה תוכנית אשר מטרתה הענקת תמיכה נפשית ומקצועית לגורמים המטפלים באוקראינה, אשר נמצאים בחזית האזרחית הפצועה. בכנס קייב השני לגברות ראשונות, אמרה הגב’ הרצוג בהקשר זה כי “ניסיונה הרב של מדינת ישראל בהתמודדות ממושכת עם מצבי טראומה, דחף את החברה הישראלית לפתח מנגנוני הישרדות, חיים ויצירה על אף האיום המתמיד. הידע והמומחיות שרכשנו כאן, בארץ, בתחום בריאות הנפש, מאפשר לנו להעניק סיוע לעם האוקראיני המתמודד עם מלחמה ואובדן. בית הנשיא חבר לארגונים ישראליים המתמחים בפיתוח עמידות דרך טיפול, מניעה, מחקר ומודעות ציבורית, ויחד יצרנו תוכניות שמטרתן טיפול במטפלים וסיוע למסייעים. אלו קיבלו כלים להתמודד ולתמוך בביטחה בתהליך הריפוי של העם האוקראיני”.</p>
+						<h6>מקורות מידע לציבור- עמותות שמציעות עזרה וארגונים שמגייסים מתנדבים:</h6>
+						<ul class="link-list">
+							<li><a href="#">הפנייה לרפורמת “נפש אחת”</a></li>
+							<li><a href="#">RESTART</a></li>
+							<li><a href="#">נט”ל</a></li>
+							<li><a href="#">נט”ל</a></li>
+							<li><a href="#">נט”ל</a></li>
+							<li><a href="#">נט”ל</a></li>
+							<li><a href="#">אתר אנוש - 2022</a></li>
+							<li><a href="#">הפנייה לרפורמת “נפש אחת”</a></li>
+						</ul>
+
+						<h6>דו”חות- פלטפורמה להעלאת הדוחות בתחום בריאות הנפש אשר הוגש למשכן:</h6>
+						<ul class="link-list">
+							<li><a href="#">דו”ח הועדה לבחינת פגיעות מיניות בילדים- הוגש לנשיא 2022</a></li>
+							<li><a href="#">דו”ח ערן 2022 הגוש לנשיא</a></li>
+							<li><a href="#">דו”ח אנוש שהוגש לנשיא ולרעייה 2022 בתחום סטיגמות</a></li>
+						</ul>
+						
+						<figure>
+							<a href="img/img-23.png" data-fancybox="gallery" >
+								<img src="img/img-23.png" alt="">
+							</a>
+							<figcaption>צילום: יגאל סלבין</figcaption>
+						</figure>
+
+						<h6>החברה האזרחית בישראל</h6>
+						<p>הגברת הראשונה בעלת ניסיון של עבודה רבת השנים עם החברה האזרחית בישראל. בנוסף לכך נסיונה הנרחב גם במגזר הפרטי והציבורי העניק לה נקודת מבט רב- ערכית אשר באה לידי ביטוי בהובלת חיבור בין-מגזרי נרחב. כמגשרת בלב ובנפש פועלת הגברת הראשונה ליצירת שיתופי פעולה בין מגזריים, שמטרתם שיפור איכות חיי אזרחיות ואזרחי ישראל. באמצעות העמקת הממשקים בין המגזרים הקיימים - ממשלה, שלטון מקומי, עסקים, חדשנות, מומחים לחברה אזרחית, פילנתרופיה והדור הבא - רואה הגברת הראשונה את שילוב הזרועות האמיתי שיסייע בקידום כל חלקי החברה. הגברת הרצוג מאמינה כי “אנו עדים לצורך בקיומה של תשתית מערכתית וארגונית – שמאפשרת למגזרים השונים לקיים שיח וממשק משמעותי זה עם זה, המחבר בין שחקנים בעלי נקודות מבט ומקורות ידע וניסיון שונים לא רק באירועי שיא ומשברים – אלא גם בשגרה השוטפת”. בדברים שנשאה הגב’ הרצוג היא הביעה את משאלתה, לה היא מקדישה חלק מרכזי בעשייתה, “לבנות לבנה אחר לבנה, את חברת המופת אותה אנו רוצות ורוצים לחיות במדינתנו היהודית והדמוקרטית…חברה צודקת, עתיד משותף, בו בנות ובני כל המגזרים חייבים לעבוד יחד למען ערכים נעלים של צדק חברתי, שוויון וחירות. יחד, זו הדרך היחידה בה נוכל להתמודד עם האתגרים שנכונו לנו”.</p>
+						<h6>הפניות:</h6>
+						<ul class="link-list">
+							<li><a href="#">דו”ח הועדה לבחינת פגיעות מיניות בילדים- הוגש לנשיא 2022</a></li>
+							<li><a href="#">דו”ח ערן 2022 הגוש לנשיא</a></li>
+							<li><a href="#">דו”ח אנוש שהוגש לנשיא ולרעייה 2022 בתחום סטיגמות</a></li>
+						</ul>
+						<h6>גיוון תעסוקתי</h6>
+						<p>מגוון ההון האנושי בחברה הישראלית המורכבת מדתות, אמונות, אורחות חיים וזהויות שונות מהווה בעיני הגברת הראשונה הזדמנות שיש לממשה ולמצות את היתרונות הגלומים בה. שוק העבודה מהווה מקום מפגש מצוין המייצר היכרויות אישיות ומעניק הזדמנויות להגברת השילוב של אוכלוסיות שונות, אשר אינן זוכות בדרך כלל לשילוב ראוי, וקידומן החברתי והכלכלי . מתוך אמונה שתעסוקה משותפת הופכת לסוכן שינוי המקרב את אזרחי המדינה לבניית חברה הוגנת, סובלנית ושוויונית יותר פועלת הגברת הראשונה להגברת שילוב וקידום מגוון אוכלוסיות בשוק התעסוקה באמצעות תכניות שונות.</p>
+
+						<h6>קידום הספורט הישראלי</h6>
+						<p>הגברת הראשונה מאמינה בכוחו של הספורט, בכל רמה ובכל ענף, לשנות, להעצים ולקדם את הסוגיות החשובות לנו כפרטים וכחברה. היכולת להשתייך לקבוצה, הבחירה לקום ולזוז, העוצמה הטמונה בפרגון למתחרה, ההתמסרות לתהליך והאתגר להתמיד – כל אלו הם כלים משני מציאות, הן עבור הפרט ובוודאי עבור הכלל. מתוך ראיית הספורט כמחולל שינוי וצמיחה וכאפיק למוביליות חברתית משמעותית, פועלת הגב’ הרצוג לקידום תוכניות אשר מנגישות את הכלים הללו לאוכלוסיות אשר יכולות לצאת נשכרות מכך במיוחד: קידום נשים בספורט, העצמת נוער מהפריפריה החברתית וגאוגרפית ושילוב אנשים עם מוגבלויות בספורט. הגברת הראשונה סבורה כי ההשפעה החברתית של העיסוק בספורט היא בעלת פוטנציאל מהפכני, וביסודו האמונה כי “כולנו חלק מהמשחק”. בדברים שאמרה בוועדה ציבורית לקידום ספורט נשים ציינה הגב’ הרצוג כי “אנו רוצים להרחיב את פעילות בית הנשיא בתחום הספורט ולקדם ככל שניתן את השימוש בספורט, עממי והישגי, ככלי לקידום חברתי ושיח מגוון”.</p>
+
+						<div class="btn-wrap">
+							<a href="#" class="btn-default btn-black">פניות לרעיית הנשיא</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item-content item-content-3 bg-grey-full" id="section-3">
+				<div class="content-mini content-width">
+					<div class="text">
+						<h2 class="text-center">פרס רעיית הנשיא לשירה עברית על שם גרדנר סימון</h2>
+						<h3 class="after">לזכרה של הגב’ נחמה ריבלין ז”ל</h3>
+						<h4>הפרס הושק בשנת 2018 בעקבות שיתוף פעולה בין נציגי האפוטרופוס הכללי ובית הנשיא, במטרה להגשים את עיזבונו של ד”ר גרדנר סימון, רופא יהודי בריטי, אשר מדינת ישראל והשפה העברית היו קרובים לליבו. בצוואתו משנת 1967, ביקש להועיד חלק מכספו לעידוד הכתיבה בשפה העברית. ד”ר גרדנר סימון ז”ל, נפטר בשנת 1971.</h4>
+					</div>
+					<div class="line-img">
+						<span><img src="img/img-24.png" alt=""></span>
+					</div>
+					<div class="text">
+						<p>החיבור אל רעיית הנשיא ריבלין היה טבעי ויחד עם אנשי מקצוע ומומחים בתחום, הוחלט להקדיש את הפרס לכתיבת שירה, במטרה “לעודד משוררים/ות ליצור שירה עברית איכותית, אשר בכוחה להעשיר את עולם השירה הישראלי ובכך לתרום לקידום הרוח והתרבות בישראל”. הפרס חולק בפעם הראשונה על ידי הגב’ ריבלין ולאחר פטירתה הוקדש הפרס לזכרה (חולק עוד פעמיים נוספות במתכונת זו). הפרס הראשי עומד על סך של 50,000 ₪, ולצידו חולקו בכל שנה גם שני ציונים לשבח על סך של 10,000 ₪ לכל אחד (הועדה יכולה להחליט איך נכון לחלק את ההקצאה השנתית ולכמה זוכים).</p>
+					</div>
+					<figure class="flex-figcaption">
+						<a href="img/img-25.png" data-fancybox="gallery" >
+							<img src="img/img-25.png" alt="">
+						</a>
+						<figcaption>
+							<h6>פרס רעיית נשיא המדינה לשירה עברית מוענק לחוה פנחס כהן ז”ל</h6>
+							<p>צילום: חיים צח לע״מ</p>
+						</figcaption>
+					</figure>
+
+					<div class="text">
+						<h3>הזוכים בפרס עד כה:</h3>
+						<ul class="list-point">
+							<li>
+								<h6>Lorem:</h6>
+								<p>ספרו ‘זיכרונות מחנות תקליטים’ ספרו ‘זיכרונות מחנות תקליטים’ספרו ‘זיכרונות מחנות תקליטים’</p>
+							</li>
+							<li>
+								<h6>Lorem:</h6>
+								<p>ספרו ‘זיכרונות מחנות תקליטים’ספרו ‘זיכרונות מחנות תקליטים’ספרו ‘זיכרונות מחנות תקליטים’</p>
+							</li>
+							<li>
+								<h6>Lorem:</h6>
+								<p>ספרו ‘זיכרונות מחנות תקליטים’ספרו ‘זיכרונות מחנות תקליטים’ספרו ‘זיכרונות מחנות תקליטים’</p>
+							</li>
+							<li>
+								<h6>Lorem:</h6>
+								<p>ספרו ‘זיכרונות מחנות תקליטים’ספרו ‘זיכרונות מחנות תקליטים’ספרו ‘זיכרונות מחנות תקליטים’</p>
+							</li>
+						</ul>
+						<div class="btn-wrap">
+							<a href="#" class="btn-default btn-black">פניות לרעיית הנשיא</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="item-content item-content-4 bg-grey-full" id="section-4">
+				<div class="content-mini content-width">
+
+					<div class="text">
+						<p>החיבור אל רעיית הנשיא ריבלין היה טבעי ויחד עם אנשי מקצוע ומומחים בתחום, הוחלט להקדיש את הפרס לכתיבת שירה, במטרה “לעודד משוררים/ות ליצור שירה עברית איכותית, אשר בכוחה להעשיר את עולם השירה הישראלי ובכך לתרום לקידום הרוח והתרבות בישראל”. הפרס חולק בפעם הראשונה על ידי הגב’ ריבלין ולאחר פטירתה הוקדש הפרס לזכרה (חולק עוד פעמיים נוספות במתכונת זו). הפרס הראשי עומד על סך של 50,000 ₪, ולצידו חולקו בכל שנה גם שני ציונים לשבח על סך של 10,000 ₪ לכל אחד (הועדה יכולה להחליט איך נכון לחלק את ההקצאה השנתית ולכמה זוכים).</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+
+	</main>
+
+
+
+	<footer>
+		<div class="bg">
+			<img src="img/after-2.svg" alt="">
+		</div>
+		<div class="content-width content-mini">
+			<div class="footer-content">
+				<div class="content">
+					<div class="left">
+						<div class="logo-wrap">
+							<a href="index.html"><img src="img/logo-footer.svg" alt=""></a>
+						</div>
+						<nav class="footer-menu">
+							<ul>
+								<li><a href="#">חנינות</a></li>
+								<li><a href="#">אותות ופרסי הנשיא</a></li>
+								<li><a href="#">מכרזים ופרסומים</a></li>
+								<li><a href="#">פניות הציבור</a></li>
+								<li><a href="#">נאומי הנשיא</a></li>
+								<li><a href="#">מחלקות בית הנשיא</a></li>
+								<li><a href="#">מרכז הביקורים</a></li>
+								<li><a href="#">חדשות</a></li>
+								<li><a href="#">יצירת קשר</a></li>
+								<li><a href="#">רעיית נשיא</a></li>
+								<li><a href="#">רשתות חברתיות</a></li>
+							</ul>
+							<div class="nice-select" tabindex="0">
+
+								<div class="wrap"><i class="far fa-globe"></i><span class="current">English</span></div><ul class="list"><li class="option selected"><a href="#">English</a></li><li class="option"><a href="#">العربية</a></li><li class="option"><a href="#">עברית</a></li></ul>
+							</div>
+						</nav>
+					</div>
+					<div class="right">
+						<div class="btn-wrap">
+							<a href="#" class="btn-default btn-black">קביעת ביקור בבית הנשיא</a>
+						</div>
+						<ul class="soc">
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						</ul>
+						<p>רח’ הנשיא 3, ירושלים מיקוד 9218801</p>
+						<p><a href="tel:+97226707211"><img src="img/icon-8-1.svg" alt=""><span>+972 2 6707211</span></a></p>
+						<p><a href="tel:+97225610037"><img src="img/icon-8-2.svg" alt=""><span>+972 2 5610037</span></a></p>
+						<p><a href="mailto:info@gov.il"><img src="img/icon-8-3.svg" alt="">info@gov.il</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="content-width content-mini">
+				<div class="item item-1">
+					<ul>
+						<li><a href="#">תנאי שימוש</a></li>
+						<li><a href="#">נגישות</a></li>
+					</ul>
+				</div>
+				<div class="item item-2"><p>2023 © בית הנשיא</p></div>
+				<div class="item item-3"><p><a href="#">UI/UX: MEIDAN & CO.</a></p></div>
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="fix-left">
+		<a href="#"><img src="img/icon-9.svg" alt=""></a>
+	</div>
+
+	<div class="fix-right">
+		<ul>
+			<li class="top-page"><a href="#"><img src="img/icon-10.svg" alt=""></a></li>
+			<li><a href="#"><img src="img/icon-11.svg" alt=""></a></li>
+		</ul>
+	</div>
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/rellax.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/fixto.js"></script>
+	<script src="js/cuttr.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

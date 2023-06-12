@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="heb" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>President</title>
+
+	
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700;800&family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome-5-pro-master/css/all.css"/>
+	<link rel="stylesheet" href="css/font.css"/>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	
+</head>
+<body>
+
+  <header>
+		<div class="top-line">
+			<div class="content-width">
+				<div class="logo-wrap">
+					<div class="open-menu">
+						<a href="#">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<a href="index.html">
+						<img src="img/logo-mob.svg" alt="">
+						<img src="img/logo-mob.svg" alt="" class="mob-logo">
+					</a>
+				</div>
+				<nav class="top-menu">
+					<ul>
+						<li><a href="#">נשיא המדינה</a></li>
+						<li><a href="#">רעיית הנשיא</a></li>
+						<li><a href="#">מחליפים מילה</a></li>
+						<li><a href="#">אותות ופרסי הנשיא</a></li>
+						<li><a href="#">חנינות</a></li>
+						<li><a href="#">מרכז הביקורים</a></li>
+					</ul>
+					<div class="nav-wrap ">
+						<div class="nice-select" tabindex="0">
+							<div class="wrap">
+								<i class="far fa-globe"></i>
+								<span class="current">ENGLISH</span>
+							</div>
+							<ul class="list">
+								<li  class="option selected"><a href="#">עברית</a></li>
+								<li  class="option"><a href="#">ENGLISH</a></li>
+								<li  class="option"><a href="#">عربيه</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="search-wrap">
+						<a href="#" class="open-search"><img src="img/search.svg" alt=""></a>
+						<form action="#" class="form-search">
+							<label for="search"></label>
+							<input type="search" name="search" id="search" placeholder="חיפוש באתר…">
+							<a href="#" class="close-search"><img src="img/close-search.svg" alt=""></a>
+							<button type="submit"><img src="img/search.svg" alt=""></button>
+						</form>
+					</div>
+				</nav>
+			</div>
+		</div>
+  </header>
+
+	<div class="menu-responsive" id="menu-responsive" style="display: none">
+		<div class="top">
+			<div class="close-menu">
+				<a href="#"><img src="img/close-menu.svg" alt=""></a>
+			</div>
+		</div>
+		<div class="wrap-block">
+			<div class="bg">
+				<img src="img/bg-6.svg" alt="">
+			</div>
+			<div class="logo-wrap">
+				<a href="index.html">
+					<img src="img/logo-menu.svg" alt="">
+				</a>
+			</div>
+			<div class="search-wrap">
+				<form role="search" method="get" action="http://presidentdev.ofekpoint.com/en/" class="form-search">
+					<label for="s"></label>
+					<input type="text" name="s" id="s" placeholder="חיפוש באתר…">
+					<a href="#" class="close-search"><img src="http://presidentdev.ofekpoint.com/wp-content/themes/president_upro/img/close-search.svg" alt=""></a>
+					<button type="submit"><img src="http://presidentdev.ofekpoint.com/wp-content/themes/president_upro/img/search.svg" alt=""></button>
+				</form>      </div>
+			<div class="wrap-content">
+				<nav class="wrap-menu">
+					<div class="item">
+						<ul class="menu">
+							<li><a href="#">נשיא המדינה</a></li>
+							<li><a href="#">רעיית הנשיא</a></li>
+							<li class="sub">
+								<a href="#">מחליפים מילה</a>
+								<div class="wrap-sub">
+									<ul class="sub-menu">
+										<li><a href="#">המרחב</a></li>
+										<li><a href="#">נעים לדבר</a></li>
+										<li><a href="#">משחק קבוצתי</a></li>
+										<li><a href="#">קול העם</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">אותות ופרסי הנשיא</a></li>
+							<li><a href="#">חנינות</a></li>
+							<li><a href="#">מרכז הביקורים</a></li>
+							<li><a href="#">נאומי הנשיא</a></li>
+						</ul>
+					</div>
+					<div class="item">
+						<ul class="menu">
+							<li><a href="#">חדשות</a></li>
+							<li><a href="#">מכרזים ופרסומים</a></li>
+							<li><a href="#">מוסד הנשיאות בישראל</a></li>
+							<li><a href="#">תולדות בית הנשיא</a></li>
+							<li><a href="#">נשיאי ישראל</a></li>
+							<li><a href="#">הרשות הרביעית</a></li>
+							<li><a href="#">מחלקות בית הנשיא</a></li>
+						</ul>
+					</div>
+					<div class="item">
+						<ul class="menu">
+							<li><a href="#">רשתות חברתיות</a></li>
+							<li><a href="#">פניות הציבור</a></li>
+							<li><a href="#">יצירת קשר</a></li>
+						</ul>
+						<div class="nice-select" tabindex="0">
+							<div class="wrap">
+								<i class="far fa-globe"></i>
+								<span class="current">ENGLISH</span>
+							</div>
+							<ul class="list">
+								<li  class="option selected"><a href="#">עברית</a></li>
+								<li  class="option"><a href="#">ENGLISH</a></li>
+								<li  class="option"><a href="#">عربيه</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</nav>
+
+				<div class="wrap-contact">
+					<ul class="contact-list">
+						<li><p>רח’ הנשיא 3, ירושלים מיקוד 9218801</p></li>
+						<li><a href="#"><i class="far fa-phone"></i>+972 2 6707211</a></li>
+						<li><a href="#"><i class="fas fa-fax"></i>+972 2 6707211</a></li>
+						<li><a href="#"><i class="far fa-envelope"></i>public@president.gov.il</a></li>
+					</ul>
+					<ul class="soc">
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<main>
+
+		<section class="home-banner">
+			<div class="content-width">
+				<div class="content rellax" data-rellax-speed="-2">
+					<video id="my-video" class="video-js" autoplay muted playsinline loop preload="auto"   data-setup="{}">
+						<source src="video/fon.mp4" type='video/mp4'>
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+				</div>
+			</div>
+		</section>
+
+		<div class="bg-grey">
+			<section class="news-block">
+				<div class="content-width content-mini">
+					<div class="content">
+						<div class="left">
+							<div class="big-item shadow">
+								<figure>
+									<a href="#"><img src="img/img-1.png" alt=""></a>
+								</figure>
+								<div class="wrap">
+									<h1><a href="#">ביידן ציטט מפרשת השבוע והבטיח: ישראל לא תהיה לבד כי ארה”ב תהיה איתה יחד תמיד</a></h1>
+									<div class="bottom">
+										<p>חדשות</p>
+										<p class="date">14.7.2022</p>
+									</div>
+								</div>
+
+							</div>
+							<div class="line">
+								<div class="item shadow">
+									<figure>
+										<a href="#">
+											<img src="img/img-2-1.png" alt="">
+										</a>
+									</figure>
+									<div class="text-wrap">
+										<h6><a href="#">נשיא המדינה הרצוג יעניק לביידן את עיטור הנשיא</a></h6>
+										<div class="bottom">
+											<p>חדשות</p>
+											<p>14.7.2022</p>
+										</div>
+									</div>
+								</div>
+								<div class="item shadow">
+									<figure>
+										<a href="#">
+											<img src="img/img-2-2.png" alt="">
+										</a>
+									</figure>
+									<div class="text-wrap">
+										<h6><a href="#">נשיא המדינה הרצוג יעניק לביידן את עיטור הנשיא</a></h6>
+										<div class="bottom">
+											<p>חדשות</p>
+											<p>14.7.2022</p>
+										</div>
+									</div>
+								</div>
+								<div class="item shadow">
+									<figure>
+										<a href="#">
+											<img src="img/img-2-3.png" alt="">
+											<span class="icon-wrap"><img src="img/icon-1.png" alt=""></span>
+										</a>
+									</figure>
+									<div class="text-wrap">
+										<h6><a href="#">נשיא המדינה הרצוג יעניק לביידן את עיטור הנשיא</a></h6>
+										<div class="bottom">
+											<p>חדשות</p>
+											<p>14.7.2022</p>
+										</div>
+									</div>
+								</div>
+								<div class="item shadow">
+									<figure>
+										<a href="#">
+											<img src="img/img-2-4.png" alt="">
+
+										</a>
+									</figure>
+									<div class="text-wrap">
+										<h6><a href="#">נשיא המדינה הרצוג יעניק לביידן את עיטור הנשיא</a></h6>
+										<div class="bottom">
+											<p>חדשות</p>
+											<p>14.7.2022</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-3-1.png" alt="">
+									</a>
+								</figure>
+								<div class="text-wrap">
+									<h6><a href="#">נשיא המדינה נפגש עם קבוצת הפרלמנט “בריטניה-ישראל” בבית הנבחרים</a></h6>
+									<div class="bottom">
+										<p>חדשות</p>
+										<p>14.7.2022</p>
+									</div>
+								</div>
+							</div>
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-3-2.png" alt="">
+									</a>
+								</figure>
+								<div class="text-wrap">
+									<h6><a href="#">נשיא המדינה נפגש עם קבוצת הפרלמנט “בריטניה-ישראל” בבית הנבחרים</a></h6>
+									<div class="bottom">
+										<p>חדשות</p>
+										<p>14.7.2022</p>
+									</div>
+								</div>
+							</div>
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-3-3.png" alt="">
+										<span class="icon-wrap"><img src="img/icon-1.png" alt=""></span>
+									</a>
+								</figure>
+								<div class="text-wrap">
+									<h6><a href="#">נשיא המדינה נפגש עם קבוצת הפרלמנט “בריטניה-ישראל” בבית הנבחרים</a></h6>
+									<div class="bottom">
+										<p>חדשות</p>
+										<p>14.7.2022</p>
+									</div>
+								</div>
+							</div>
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-3-4.png" alt="">
+									</a>
+								</figure>
+								<div class="text-wrap">
+									<h6><a href="#">נשיא המדינה נפגש עם קבוצת הפרלמנט “בריטניה-ישראל” בבית הנבחרים</a></h6>
+									<div class="bottom">
+										<p>חדשות</p>
+										<p>14.7.2022</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="link-line link-line-big">
+								<a href="#">עוד בחדשות<span></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="img-text-block">
+				<div class="content-width content-mini">
+					<div class="content">
+						<figure>
+							<img src="img/img-4.png" alt="">
+						</figure>
+						<div class="text-wrap">
+							<div class="wrap">
+								<h2>נשיא מדינת ישראל יצחק הרצוג</h2>
+								<p>נשיא המדינה יצחק הרצוג הוא איש ציבור הפועל בשירות המדינה והחברה זה למעלה משני עשורים. נולד בשנת 1960 לאורה ולחיים הרצוג, לימים הנשיא השישי של מדינת ישראל. שירת כקצין בחיל המודיעין, ולאחר שסיים לימודי משפטים עבד כעורך-דין, והתמחה בתחומי התקשורת. הוא שימש כמזכיר הממשלה, כחבר בכנסות ישראל, כשר הבינוי והשיכון, שר התיירות, שר הרווחה והשירותים החברתיים וכשר לענייני תפוצות. בהמשך נבחר לעמוד בראש מפלגת העבודה וכיהן כיו”ר האופוזיציה. משך כשלוש שנים כיהן הרצוג כיו”ר הנהלת הסוכנות היהודית. ביולי 2021 נבחר על ידי הכנסת ברוב חסר תקדים והחל בכהונתו כנשיא המדינה ה-11.</p>
+								<div class="link-line ">
+									<a href="#">קראו עוד<span></span></a>
+								</div>
+							</div>
+							<div class="item-wrap">
+								<div class="item">
+									<a href="#">
+										<span class="text">חזון נשיא המדינה</span>
+										<span class="img-wrap">
+											<img src="img/img-5-1.png" alt="">
+										</span>
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<span class="text">מוסד הנשיאות בישראל</span>
+										<span class="img-wrap">
+											<img src="img/img-5-2.png" alt="">
+										</span>
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<span class="text">פניות לנשיא המדינה</span>
+										<span class="img-wrap">
+											<img src="img/img-5-3.png" alt="">
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<section class="video-list">
+			<div class="content-width content-mini">
+				<div class="content">
+					<div class="left">
+						<h2>נאומי הנשיא</h2>
+						<ul>
+							<li>
+								<h6><a href="#">דברי הנשיא באירוע עם המשלחת הישראלית לוועידת האקלים בגלזגו – 25.10.21</a></h6>
+								<p>14.7.2022</p>
+							</li>
+							<li>
+								<h6><a href="#">דברי הנשיא באירוע עם המשלחת הישראלית לוועידת האקלים בגלזגו – 25.10.21</a></h6>
+								<p>14.7.2022</p>
+							</li>
+							<li>
+								<h6><a href="#">דברי הנשיא באירוע עם המשלחת הישראלית לוועידת האקלים בגלזגו – 25.10.21</a></h6>
+								<p>14.7.2022</p>
+							</li>
+							<li>
+								<h6><a href="#">דברי הנשיא באירוע עם המשלחת הישראלית לוועידת האקלים בגלזגו – 25.10.21</a></h6>
+								<p>14.7.2022</p>
+							</li>
+							<li>
+								<h6><a href="#">דברי הנשיא באירוע עם המשלחת הישראלית לוועידת האקלים בגלזגו – 25.10.21</a></h6>
+								<p>14.7.2022</p>
+							</li>
+						</ul>
+						<div class="link-line link-line-big">
+							<a href="#">עוד בנאומי הנשיא<span></span></a>
+						</div>
+					</div>
+					<div class="right">
+						<h2>נאומי הנשיא</h2>
+						<div class="big-item shadow">
+							<figure>
+								<img src="img/img-6.png" alt="">
+								<div class="icon-wrap">
+									<a href="#"><img src="img/icon-2.png" alt=""></a>
+								</div>
+							</figure>
+							<div class="wrap">
+								<h3><a href="#">נשיא המדינה נשא דברים באירוע פתיחת המושב השנתי ה-73 של המועצה הבינלאומית של מכון וייצמן</a></h3>
+								<p>14.7.2022</p>
+							</div>
+						</div>
+						<div class="line">
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-7-1.png" alt="">
+										<span class="icon-wrap"><img src="img/icon-1.png" alt=""></span>
+									</a>
+								</figure>
+								<h6><a href="#">נשיא המדינה שוחח כעת עם נשיא תורכיה, רג׳יפ טאיפ ארדואן</a></h6>
+								<p>14.7.2022</p>
+							</div>
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-7-2.png" alt="">
+										<span class="icon-wrap"><img src="img/icon-1.png" alt=""></span>
+									</a>
+								</figure>
+								<h6><a href="#">נשיא המדינה שוחח כעת עם נשיא תורכיה, רג׳יפ טאיפ ארדואן</a></h6>
+								<p>14.7.2022</p>
+							</div>
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-7-3.png" alt="">
+										<span class="icon-wrap"><img src="img/icon-1.png" alt=""></span>
+									</a>
+								</figure>
+								<h6><a href="#">נשיא המדינה שוחח כעת עם נשיא תורכיה, רג׳יפ טאיפ ארדואן</a></h6>
+								<p>14.7.2022</p>
+							</div>
+							<div class="item shadow">
+								<figure>
+									<a href="#">
+										<img src="img/img-7-4.png" alt="">
+										<span class="icon-wrap"><img src="img/icon-1.png" alt=""></span>
+									</a>
+								</figure>
+								<h6><a href="#">נשיא המדינה שוחח כעת עם נשיא תורכיה, רג׳יפ טאיפ ארדואן</a></h6>
+								<p>14.7.2022</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="text-img-3n">
+			<div class="content-width content-mini">
+				<div class="content">
+					<div class="left">
+						<h2>מיכל הרצוג רעיית נשיא המדינה</h2>
+						<figure>
+							<img src="img/img-8.png" alt="">
+						</figure>
+						<p>הגב’ מיכל הרצוג היא עורכת דין ומגשרת במקצועה, בוגרת אוניברסיטת תל-אביב, הפועלת זה שנים במגזר השלישי לקידום סוגיות חברתיות, חינוכיות ובריאותיות. ילידת 1961, נשואה ליצחק הרצוג .מאז 1985 ואם לשלושה בנים את שליחותה כגברת הראשונה היא מקדישה לקידום עתיד משותף בו בנות ובני כל הקבוצות בחברה הישראלית יפעלו יחד ליצירת חברה מכילה ושוויונית יותר.</p>
+						<div class="link-line">
+							<a href="#">קראו עוד<span></span></a>
+						</div>
+					</div>
+					<div class="right">
+						<div class="col col-1">
+							<figure>
+								<img src="img/img-8.png" alt="">
+							</figure>
+						</div>
+						<div class="col col-2">
+							<div class="item">
+								<a href="#">
+									<span class="text">עוגני העשייה</span>
+									<span class="img-wrap">
+											<img src="img/img-9-1.png" alt="">
+										</span>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<span class="text">פרס רעיית הנשיא לשירה עברית</span>
+									<span class="img-wrap">
+											<img src="img/img-9-2.png" alt="">
+										</span>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<span class="text">פניות לרעיית הנשיא</span>
+									<span class="img-wrap">
+											<img src="img/img-9-3.png" alt="">
+										</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block-4n">
+			<div class="bg">
+				<img src="img/bg-2.svg" alt="" class="bg-img">
+				<img src="img/bg-2-1.svg" alt="" class="img-item">
+			</div>
+			<div class="content-width content-mini">
+
+				<div class="top">
+					<figure>
+						<img src="img/icon-3.svg" alt="">
+					</figure>
+					<div class="text-wrap">
+						<p>למול הקיטוב בחברה הישראלית והיכולת המוגבלת לקיומו של שיח פתוח וקשוב חרף המחלוקות, החליט הנשיא הרצוג לקדם מספר יוזמות שמטרתן לעצור את סחף האלימות והפילוג בחברה הישראלית, לשנות את השיח ולחזק את תחושת השייכות בכל שדרות החברה. יוזמות אלו מסייעות במימוש חזונו של הנשיא הרצוג לקידומה של חברה מלוכדת יותר, עם חוסן לאומי חזק יותר, המסוגלת לנהל שיח ענייני ומכבד ומוצאת דרכים לחיות, לצמוח ולבנות יחד - גם בתוך אי-ההסכמות.</p>
+					</div>
+				</div>
+				<div class="content">
+					<div class="item item-1">
+						<figure>
+							<img src="img/icon-4-1.svg" alt="">
+						</figure>
+						<div class="text">
+							<p>למול הקיטוב בחברה הישראלית והיכולת המוגבלת לקיומו של שיח פתוח וקשוב חרף המחלוקות, החליט הנשיא הרצוג לקדם מספר יוזמות שמטרתן לעצור את סחף האלימות והפילוג בחברה הישראלית, לשנות את השיח ולחזק את תחושת השייכות בכל שדרות החברה.</p>
+							<div class="btn-wrap">
+								<a href="#" class="btn-default">קראו עוד</a>
+							</div>
+						</div>
+					</div>
+					<div class="item item-2">
+						<figure>
+							<img src="img/icon-4-2.svg" alt="">
+						</figure>
+						<div class="text">
+							<p>למול הקיטוב בחברה הישראלית והיכולת המוגבלת לקיומו של שיח פתוח וקשוב חרף המחלוקות, החליט הנשיא הרצוג לקדם מספר יוזמות שמטרתן לעצור את סחף האלימות והפילוג בחברה הישראלית, לשנות את השיח ולחזק את תחושת השייכות בכל שדרות החברה.</p>
+							<div class="btn-wrap">
+								<a href="#" class="btn-default">קראו עוד</a>
+							</div>
+						</div>
+					</div>
+					<div class="item item-3">
+						<figure>
+							<img src="img/icon-4-3.svg" alt="">
+						</figure>
+						<div class="text">
+							<p>למול הקיטוב בחברה הישראלית והיכולת המוגבלת לקיומו של שיח פתוח וקשוב חרף המחלוקות, החליט הנשיא הרצוג לקדם מספר יוזמות שמטרתן לעצור את סחף האלימות והפילוג בחברה הישראלית, לשנות את השיח ולחזק את תחושת השייכות בכל שדרות החברה.</p>
+							<div class="btn-wrap">
+								<a href="#" class="btn-default">קראו עוד</a>
+							</div>
+						</div>
+					</div>
+					<div class="item item-4">
+						<figure>
+							<img src="img/icon-4-4.svg" alt="">
+						</figure>
+						<div class="text">
+							<p>למול הקיטוב בחברה הישראלית והיכולת המוגבלת לקיומו של שיח פתוח וקשוב חרף המחלוקות, החליט הנשיא הרצוג לקדם מספר יוזמות שמטרתן לעצור את סחף האלימות והפילוג בחברה הישראלית, לשנות את השיח ולחזק את תחושת השייכות בכל שדרות החברה.</p>
+							<div class="btn-wrap">
+								<a href="#" class="btn-default">קראו עוד</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="awards">
+			<div class="bg">
+				<img src="img/bg-3.png" alt="">
+			</div>
+			<div class="content-width content-mini">
+				<div class="content">
+					<div class="left item">
+						<h2>אותות ופרסי הנשיא</h2>
+						<figure class="shadow">
+							<img src="img/img-10.png" alt="">
+							<div class="link-line link-bg">
+								<a href="#">עוד בחדשות<span></span></a>
+							</div>
+						</figure>
+					</div>
+					<div class="right item">
+						<figure class="shadow">
+							<img src="img/img-11-1.png" alt="">
+							<div class="link-line link-bg">
+								<a href="#">מלגות נשיא המדינה<span></span></a>
+							</div>
+						</figure>
+						<figure class="shadow">
+							<img src="img/img-11-2.png" alt="">
+							<div class="link-line link-bg">
+								<a href="#">אות הנשיא להתנדבות<span></span></a>
+							</div>
+						</figure>
+						<div class="link-line link-full">
+							<a href="#"><i>עוד באותות ופרסי הנשיא</i><span></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="big-img-text">
+			<div class="bg">
+				<img src="img/bg-4.png" alt="" class="img-bg">
+				<img src="img/after-1.png" alt="" class="after-img">
+			</div>
+			<div class="content-width content-mini">
+				<div class="text-wrap">
+					<h2>חנינות נשיא המדינה</h2>
+					<div class="img-wrap">
+						<img src="img/img-12.png" alt="">
+					</div>
+					<p>אחד מתפקידיו החשובים של נשיא המדינה הוא הסמכות החוקית לחון עבריינים ולהקל בעונשם על-ידי הפחתת העונש או המרתו לעונש אחר. הנשיא מגבש את החלטתו בנוגע לחנינה בהתבסס על המידע וחוות הדעת הדרושים לצורך קבלת ההחלטה, בהן אלה של שרי המשפטים או הביטחון. ההיסטוריה הנשיאותית מראה כי מוסד החנינה משקף גם את חזון הנשיא וערכיו, המשפיעים על מתן או אי-מתן החנינה.</p>
+					<div class="link-line link-line-white">
+						<a href="#">קראו עוד<span></span></a>
+					</div>
+				</div>
+				<figure>
+					<img src="img/img-12.png" alt="">
+				</figure>
+			</div>
+		</section>
+
+		<section class="awards awards-2">
+
+			<div class="content-width content-mini">
+				<div class="content">
+					<div class="left item">
+						<h2>מרכז הביקורים</h2>
+						<figure class="shadow">
+							<img src="img/img-13.png" alt="">
+							<div class="link-line link-bg">
+								<a href="#">סיורים במשכן<span></span></a>
+							</div>
+						</figure>
+					</div>
+					<div class="right item">
+						<figure class="shadow">
+							<img src="img/img-14-1.png" alt="">
+							<div class="link-line link-bg">
+								<a href="#">תולדות בית הנשיא<span></span></a>
+							</div>
+						</figure>
+						<figure class="shadow">
+							<img src="img/img-14-2.png" alt="">
+							<div class="link-line link-bg">
+								<a href="#">נשיאי ישראל<span></span></a>
+							</div>
+						</figure>
+						<div class="link-line link-full">
+							<a href="#"><i>עוד במרכז הביקורים</i><span></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="soc-block">
+			<div class="bg">
+				<img src="img/bg-5.png" alt="" class="bg-img">
+				<img src="img/icon-5-1.png" alt="" class="img img-1">
+				<img src="img/icon-5-2.png" alt="" class="img img-2">
+				<img src="img/icon-5-3.png" alt="" class="img img-3">
+				<img src="img/icon-5-4.png" alt="" class="img img-4">
+				<img src="img/icon-5-5.png" alt="" class="img img-5">
+				<img src="img/icon-5-6.png" alt="" class="img img-6">
+				<img src="img/icon-5-7.png" alt="" class="img img-7">
+				<img src="img/icon-5-8.png" alt="" class="img img-8">
+			</div>
+			<div class="content-width content-mini">
+				<div class="title">
+					<figure>
+						<img src="img/img-15.png" alt="">
+					</figure>
+					<div class="text">
+						<p>רשתות <span>חברתיות</span> </p>
+						<a href="#">@Isaac_Herzog</a>
+					</div>
+				</div>
+				<div class="content">
+					<div class="item item-1">
+						<img src="img/img-16-1.jpg" alt="">
+					</div>
+					<div class="item item-2 ">
+						<img src="img/img-16-2.jpg" alt="">
+					</div>
+					<div class="item item-3 " >
+						<img src="img/img-16-3.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="video-wrap">
+					<div class="tic">
+						<img src="img/img-18.jpg" alt="">
+					</div>
+					<div class="video-block">
+						<div class="video-big">
+							<a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+								<img src="img/img-17.jpg" alt="">
+							</a>
+						</div>
+						<div class="video-line">
+							<div class="video-item">
+								<a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+									<div class="text">
+										<p>נשיא המדינה שוחח כעת עם נשיא תורכיה, רג׳יפ טאיפ ארדואן</p>
+									</div>
+									<figure>
+										<img src="img/img-19-1.png" alt="">
+										<div class="icon-wrap">
+											<img src="img/icon-7.png" alt="">
+										</div>
+									</figure>
+								</a>
+							</div>
+							<div class="video-item">
+								<a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+									<div class="text">
+										<p>נשיא המדינה הרצוג יעניק לביידן את עיטור הנשיא</p>
+									</div>
+									<figure>
+										<img src="img/img-19-2.png" alt="">
+										<div class="icon-wrap">
+											<img src="img/icon-7.png" alt="">
+										</div>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> 
+	</main>
+
+	<footer>
+		<div class="bg">
+			<img src="img/after-2.svg" alt="">
+		</div>
+		<div class="content-width content-mini">
+			<div class="footer-content">
+				<div class="content">
+					<div class="left">
+						<div class="logo-wrap">
+							<a href="index.html"><img src="img/logo-footer.svg" alt=""></a>
+						</div>
+						<nav class="footer-menu">
+							<ul>
+								<li><a href="#">חנינות</a></li>
+								<li><a href="#">אותות ופרסי הנשיא</a></li>
+								<li><a href="#">מכרזים ופרסומים</a></li>
+								<li><a href="#">פניות הציבור</a></li>
+								<li><a href="#">נאומי הנשיא</a></li>
+								<li><a href="#">מחלקות בית הנשיא</a></li>
+								<li><a href="#">מרכז הביקורים</a></li>
+								<li><a href="#">חדשות</a></li>
+								<li><a href="#">יצירת קשר</a></li>
+								<li><a href="#">רעיית נשיא</a></li>
+								<li><a href="#">רשתות חברתיות</a></li>
+							</ul>
+							<div class="nice-select" tabindex="0">
+
+								<div class="wrap"><i class="far fa-globe"></i><span class="current">English</span></div><ul class="list"><li class="option selected"><a href="#">English</a></li><li class="option"><a href="#">العربية</a></li><li class="option"><a href="#">עברית</a></li></ul>
+							</div>
+						</nav>
+					</div>
+					<div class="right">
+						<div class="btn-wrap">
+							<a href="#" class="btn-default btn-black">קביעת ביקור בבית הנשיא</a>
+						</div>
+						<ul class="soc">
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						</ul>
+						<p>רח’ הנשיא 3, ירושלים מיקוד 9218801</p>
+						<p><a href="tel:+97226707211"><img src="img/icon-8-1.svg" alt=""><span>+972 2 6707211</span></a></p>
+						<p><a href="tel:+97225610037"><img src="img/icon-8-2.svg" alt=""><span>+972 2 5610037</span></a></p>
+						<p><a href="mailto:info@gov.il"><img src="img/icon-8-3.svg" alt="">info@gov.il</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="content-width content-mini">
+				<div class="item item-1">
+					<ul>
+						<li><a href="#">תנאי שימוש</a></li>
+						<li><a href="#">נגישות</a></li>
+					</ul>
+				</div>
+				<div class="item item-2"><p>2023 © בית הנשיא</p></div>
+				<div class="item item-3"><p><a href="#">UI/UX: MEIDAN & CO.</a></p></div>
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="fix-left">
+		<a href="#"><img src="img/icon-9.svg" alt=""></a>
+	</div>
+
+	<div class="fix-right">
+		<ul>
+			<li class="top-page"><a href="#"><img src="img/icon-10.svg" alt=""></a></li>
+			<li><a href="#"><img src="img/icon-11.svg" alt=""></a></li>
+		</ul>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/rellax.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/fixto.js"></script>
+	<script src="js/cuttr.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
