@@ -1,0 +1,1 @@
+<div class="item-content item-content-<?php the_field('number') ?><?php if(get_field('is_grey')) echo ' bg-grey-full' ?>" id="section-<?php the_field('number') ?>">

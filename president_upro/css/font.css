@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Afek 1.5 AAA';
+  src: url('../fonts/Afek15AAA-UltraBold.woff2') format('woff2'),
+  url('../fonts/Afek15AAA-UltraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr-Light.eot');
+  src: local('HelveticaNeueCyr-Light'),
+  url('../fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+  url('../fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+  url('../fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Almoni Tzar AAA';
+  src: url('../fonts/AlmoniTzarAAA-Bold.woff2') format('woff2'),
+  url('../fonts/AlmoniTzarAAA-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Almoni Tzar AAA';
+  src: url('../fonts/AlmoniTzarAAA.woff2') format('woff2'),
+  url('../fonts/AlmoniTzarAAA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

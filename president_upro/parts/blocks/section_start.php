@@ -1,0 +1,1 @@
+<div class="content-mini content-width<?php if(get_field('content_text')) echo ' content-text' ?>">

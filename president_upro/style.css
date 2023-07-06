@@ -1,0 +1,31 @@
+/*   
+Theme Name: President
+*/
+
+
+.lady-content .figure-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 60px 0 60px;
+}
+.lady-content .figure-wrap figure {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.lady-content figure figcaption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}

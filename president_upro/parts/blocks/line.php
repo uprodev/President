@@ -1,0 +1,1 @@
+<div class="line<?php if(get_field('is_blue')) echo '-blue' ?>"></div>
